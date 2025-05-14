@@ -1,0 +1,101 @@
+{-# LANGUAGE ExistentialQuantification #-}
+
+module Main where
+
+import Data.List (foldl')
+
+-- ============================================================================
+-- 1) Exemplo de lista infinita, filter/map/fold e avaliação preguiçosa
+-- ============================================================================
+
+valores :: [Int]
+valores = [1..10]
+
+resultado :: Int
+resultado =
+  foldl' (+) 0
+    $ map (*2)
+    $ filter even valores
+-- resultado == 60
+
+-- ============================================================================
+-- 2) Currying e aplicação parcial
+-- ============================================================================
+
+soma3 :: Int -> Int -> Int -> Int
+soma3 x y z = x + y + z
+
+-- fixa x = 2 e y = 0; incrementa2 z = 2 + 0 + z
+incrementa2 :: Int -> Int
+incrementa2 = soma3 2 0
+
+-- ============================================================================
+-- 3) ExistentialQuantification e typeclass Shape
+-- ============================================================================
+
+class Shape s where
+  area     :: s -> Double
+  describe :: s -> String
+
+-- Empacotador para qualquer instância de Shape
+data AnyShape = forall s. Shape s => AnyShape s
+
+-- Círculo
+data Circle = Circle { radius :: Double }
+instance Shape Circle where
+  area    (Circle r)    = pi * r * r
+  describe (Circle r)   = "Circle of radius " ++ show r
+
+-- Retângulo
+data Rectangle = Rectangle { width, height :: Double }
+instance Shape Rectangle where
+  area     (Rectangle w h)    = w * h
+  describe (Rectangle w h)    = "Rectangle " ++ show w ++ " * " ++ show h
+
+-- Lista heterogênea de formas
+shapes :: [AnyShape]
+shapes =
+  [ AnyShape (Circle    3)
+  , AnyShape (Rectangle 4 5)
+  ]
+
+-- ============================================================================
+-- 4) Lista infinita de naturais
+-- ============================================================================
+
+naturais :: [Integer]
+naturais = [0..]  -- sugar para enumFrom 0
+
+pares10 :: [Integer]
+pares10 = take 10 $ filter even naturais
+-- pares10 == [0,2,4,6,8,10,12,14,16,18]
+
+
+-- ============================================================================
+-- main: chama todos os exemplos em sequência
+-- ============================================================================
+
+main :: IO ()
+main = do
+  putStrLn "=== 1) Filter/Map/Fold Example ==="
+  putStrLn $ "resultado = " ++ show resultado
+  putStrLn ""
+
+  putStrLn "=== 2) Currying & Partial Application ==="
+  putStrLn $ "soma3 1 2 3     = " ++ show (soma3 1 2 3)
+  putStrLn $ "incrementa2 5   = " ++ show (incrementa2 5)
+  putStrLn ""
+
+  putStrLn "=== 3) ExistentialQuantification & Typeclass ==="
+  mapM_ (\(AnyShape s) ->
+           putStrLn $ describe s ++ " has area " ++ show (area s)
+        ) shapes
+  putStrLn ""
+
+  putStrLn "=== 4) Lista infinita de naturais ==="
+  putStrLn $ "pares10 = " ++ show pares10
+  putStrLn ""
+
+
+
+=====================================================================================================
