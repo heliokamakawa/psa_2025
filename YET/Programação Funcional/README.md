@@ -109,5 +109,7 @@ Desenvolver um material que explique a programação funcional de maneira estrut
    **LINK: [https://www.wired.com/story/inside-the-cult-of-the-haskell-programmer/](https://www.wired.com/story/inside-the-cult-of-the-haskell-programmer/)**
 
 
-## LINK DO MATERIAL DIDÁTICO E EXERCÍCIOS DESENVOLVIDOS
+## LINK PARA O EBOOK
+ - O conteúdo no link foi retirado do PDF do estudo que realizamos e possui também exercícios e uma proposta de projeto para ajudar no entendimento e conhecimento da programção funcional principalmente com o uso da linguagem Haskell.
+
 [https://app.lumi.education/run/OTIEO6]
