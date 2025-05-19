@@ -107,3 +107,7 @@ Desenvolver um material que explique a programação funcional de maneira estrut
    Autor: Wired
 
    **LINK: [https://www.wired.com/story/inside-the-cult-of-the-haskell-programmer/](https://www.wired.com/story/inside-the-cult-of-the-haskell-programmer/)**
+
+
+## LINK DO MATERIAL DIDÁTICO E EXERCÍCIOS DESENVOLVIDOS
+[https://app.lumi.education/run/OTIEO6]
