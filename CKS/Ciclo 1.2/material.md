@@ -40,6 +40,7 @@ Implementar uma aplicação Java que integre OO e FP, demonstrando:
 ## 🛠️ Descrição da Prática
 
 ### 🧮 Paradigma Funcional em Java
+```java
 // Função pura (sem side-effects)
 public static BigDecimal calcularTotal(List<Item> itens) {
     return itens.stream()
@@ -47,6 +48,9 @@ public static BigDecimal calcularTotal(List<Item> itens) {
               .reduce(BigDecimal.ZERO, BigDecimal::add);
 }
 
+```
+
+---
 ### Princípios Fundamentais:
 
 🧩 Composição funcional
@@ -76,7 +80,7 @@ public static BigDecimal calcularTotal(List<Item> itens) {
 🏦 Sistema Bancário
 OO (Domínio rico):
 
-java
+```java
 public class Conta {
     private BigDecimal saldo;
     public void depositar(BigDecimal valor) {
@@ -84,14 +88,15 @@ public class Conta {
     }
 }
 FP (Processamento):
-
-java
+```
+```java
 public static BigDecimal calcularMediaSaldos(List<Conta> contas) {
     return contas.stream()
                .map(Conta::getSaldo)
                .reduce(BigDecimal.ZERO, BigDecimal::add)
                .divide(new BigDecimal(contas.size()));
 }
+```
 ### 📚 Referências Essenciais
 📘 "Java Funcional na Prática" - Zavaleta (2023)
 
