@@ -1,58 +1,12 @@
 # Relatório das Apresentações + Relato de Experiência 📝
+Na matéria de projeto avançado de software, desenvolvemos dois ciclos de aprendizagem dentro de um trimestre. No segundo ciclo, o tema abordado foi “paradigmas de programação”,  nesse sentido, discutimos em equipe e decidimos por fazer um recorte dos paradigmas e apresentar a aplicabilidade do paradigma funcional na linguagem de programação Java. Para isso dividimos o trabalho em três partes, uma para cada integrante do grupo, eu fiquei responsável pela definição dos conceitos do paradigma funcional e o contexto em que se aplica tal paradigma no Java.
 
-## Contexto do Projeto 🏫
-Na matéria de **Projeto Avançado de Software**, desenvolvemos dois ciclos de aprendizagem dentro de um trimestre. No segundo ciclo, o tema abordado foi **"Paradigmas de Programação"**. Nesse sentido:
+Neste período, foi possível, através de leituras de artigos encontrados através da base de dados Google Scholar, encontrar diversos artigos referentes ao paradigma funcional, no entanto foi notório a escassez de artigos que traziam consigo o uso do paradigma com o Java. Outros meios de buscas, foram vídeo aulas na plataforma Youtube, com destaque para o professor, pesquisador e desenvolvedor  Otavio Lemo a qual foi encontrado uma PlayList com 16 vídeo aulas e entrevistas a respeito do paradigma funcional. Um ponto importante foi a aplicabilidade do paradigma funcional no mercado de trabalho, na empresa Nubank - pois em algumas literaturas os autores pontuam que esse paradigma era utilizado apenas para fins acadêmicos, e essa descoberta veio contra essas afirmações. 
 
-- Discutimos em equipe e decidimos fazer um recorte dos paradigmas
-- Focamos na aplicabilidade do **paradigma funcional** na linguagem Java
-- Dividimos o trabalho em três partes (uma para cada integrante)
-- Minha responsabilidade: 
-  - Definição dos conceitos do paradigma funcional
-  - Contexto de aplicação no Java 💻
+No dia da apresentação, iniciou-se pela equipe do Enois, a qual trouxeram a aplicabilidade dos paradigmas no terminal do Vscode, algo muito interessante, pois eu nunca havia ouvido estudo sobre esses terminal. Em seguida o grupo do The Rapazes, trouxeram uma abordagem de como resolver um mesmo problema “Lig4” com diversos paradigmas. 
 
-## Pesquisa e Descobertas 🔍
-Neste período, através de:
+Depois o grupo de Los bandoleiros, apresentaram de forma geral um pouco de cada paradigma, pontuando os pontos positivos e negativos.
+ O grupo CREV, apresentou também os 4 principais paradigmas, mas além disso cada integrante fez um código de exemplo para cada paradigma, e depois fizeram uma tabela comparativa analisando os pontos fortes e fracos de cada paradigma nos códigos.
+ O grupo YET  apresentou um apanhado geral de informações sobre Programação Funcional, abordando suas origens, principais conceitos, diferenças ao comparar este paradigma com outras linguagens e sua utilidade nos dias de hoje. Destacaram-se os pontos redução da quantidade de linhas em códigos com a programação funcional aplicada, a classificação das linguagens que suportam o paradigma funcional como linguagens puramente funcionais, fortemente funcionais e parcialmente funcionais, e a utilização em atividades do contexto financeiras, como em aplicações que tratam sobre avaliação de riscos.
 
-✅ Leituras de artigos no **Google Scholar**  
-✅ Vídeo aulas no **YouTube** (destaque para a playlist do prof. Otavio Lemos - 16 vídeos)  
 
-Principais achados:
-- Escassez de materiais sobre paradigma funcional **especificamente com Java**
-- Descoberta importante: aplicação do paradigma no **Nubank** (contrariando a ideia de que seria apenas acadêmico) 🏦
-
-## Apresentações dos Grupos 👥
-
-### 1. Enois 🛠️
-- Aplicabilidade dos paradigmas no **terminal do VSCode**
-- Abordagem inovadora sobre o terminal 💡
-
-### 2. The Rapazes 🎮
-- Resolução do mesmo problema ("Lig4") com diferentes paradigmas
-- Comparação prática de abordagens ⚖️
-
-### 3. Los Bandoleiros ⚔️
-- Visão geral dos paradigmas
-- Pontos positivos e negativos de cada um 📊
-
-### 4. CREV 🧠
-- Apresentação dos 4 principais paradigmas
-- **Diferencial**: 
-  - Códigos de exemplo para cada paradigma
-  - Tabela comparativa com pontos fortes/fracos 📋
-
-### 5. YET 🚀
-- Aprofundamento em **Programação Funcional**:
-  - Origens e conceitos
-  - Comparação com outras linguagens
-  - Casos reais (especialmente no setor financeiro) 💰
-- Destaques:
-  - Redução de linhas de código
-  - Classificação das linguagens funcionais
-  - Aplicação em avaliação de riscos 📉
-
-## Conclusões 🎯
-A experiência permitiu:
-- Ampliar a compreensão sobre paradigmas
-- Ver na prática diferentes abordagens
-- Quebrar mitos (como o uso apenas acadêmico do funcional)
-- Aprender com as diversas perspectivas apresentadas pelos grupos 🌟
