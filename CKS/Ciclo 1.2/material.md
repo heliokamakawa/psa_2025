@@ -50,7 +50,6 @@ public static BigDecimal calcularTotal(List<Item> itens) {
 
 ```
 
----
 ### Princípios Fundamentais:
 
 🧩 Composição funcional
@@ -60,6 +59,7 @@ public static BigDecimal calcularTotal(List<Item> itens) {
 🔄 Funções de alta ordem
 
 🧪 Testabilidade
+
 
 ### ⚖️ Vantagens e Desvantagens
 👍 Benefícios do FP
@@ -75,6 +75,7 @@ public static BigDecimal calcularTotal(List<Item> itens) {
 📚 Ecossistema Java ainda majoritariamente OO
 
 🛠️ Limitações em sistemas legados
+
 
 ### 📊 Exemplos Comparativos
 🏦 Sistema Bancário
@@ -111,8 +112,8 @@ Cenário	Paradigma Recomendado	Razão
 CRUDs	🧩 OO	Modelagem rica
 ETL	🔄 FP	Pipeline de dados
 Regras Complexas	🧠 Lógico	Sistema especialista
-### Roadmap de Adoção:
 
+### Roadmap de Adoção:
 Comece com Streams em serviços
 
 Introduza imutabilidade em DTOs
@@ -120,7 +121,6 @@ Introduza imutabilidade em DTOs
 Adote gradualmente em camadas de serviço
 
 ### "O futuro é híbrido: OO para estrutura, FP para transformação" - Relatório Gartner 2023
-
 
 ### Principais melhorias realizadas:
 1. 🔄 Melhor fluxo lógico entre seções
