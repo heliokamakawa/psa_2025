@@ -1,59 +1,14 @@
 ### Carla 💻  
-- No projeto, trabalhei no levantamento de pontos classificados como **vantagens** ou **desvantagens** da programação, especialmente no contexto deste paradigma aplicado à linguagem **Java**. A principal referência foi o artigo *"Publicação Funcional no Java"*, disponível em [Medium](https://medium.com/@nvieirarafael/programa%C3%A7%C3%A3o-funcional-no-java-2a005964cb20). 📚  
-- As atividades realizadas envolveram:  
-  - Leitura de artigos, sites e capítulos de livros relacionados ao tema.  
-  - Escrita a partir da compreensão do conteúdo.  
-  - Suporte aos colegas de equipe quando necessário. 👩‍💻👨‍💻  
-- A realização deste trabalho possibilitou:  
-  - O conhecimento do paradigma funcional.  
-  - O entendimento de seus conceitos e aplicações práticas.  
-- **Relevância**: Compreender como o Java pode abarcar a programação funcional, já que muitos materiais focam em linguagens puramente funcionais. 🔄  
+- No projeto, trabalhei no levantamento de pontos classificados como vantagens ou desvantagens da programação, especialmente no contexto deste paradigma aplicado à linguagem Java. A principal referência foi o artigo "Publicação Funcional no Java", disponível em https://medium.com/@nvieirarafael/programa%C3%A7%C3%A3o-funcional-no-java-2a005964cb20. As atividades realizadas envolveram a leitura de artigos, sites e capítulos de livros relacionados ao tema, escrita a partir da compreensão do conteúdo e suporte aos colegas de equipe quando necessário.
+A realização deste trabalho possibilitou o conhecimento do paradigma funcional, o entendimento de seus conceitos e um pouco de suas aplicações práticas. Considero que a principal relevância envolvida foi compreender melhor como o Java pode abarcar a programação funcional, visto que boa parte dos conteúdos explicativos encontrados sobre o paradigma abordam o uso e o funcionamento de linguagens puramente funcionais ou fortemente funcionais, aproximando os conceitos para um contexto ao qual estou mais habituada. 
 
----
 
-### Enóis 🛠️  
-- O grupo apresentou uma análise sobre funcionalidades do **Visual Studio Code**, identificando os paradigmas usados em:  
-  - Módulo de terminal.  
-  - Versionamento com Git.  
-  - Renomeação de arquivos.  
-- Paradigmas mencionados: **imperativo**, **funcional**, **lógico** e **orientado a objetos**, com trechos de código correspondentes. 💡  
+Enóis --> O grupo apresentou uma análise sobre funcionalidades do Visual Studio Code que objetivou identificar os paradigmas usados por elas. Os recursos observados foram o módulo de terminal, de versionamento com o git, de renomeação de arquivos. Foram mencionados os paradigmas imperativo, funcional, lógico e orientado a objetos, mostrando os trechos de códigos correspondentes.
 
----
+Los bandoleiros --> O grupo expôs uma comparação entre os paradigmas de programação imperativo e orientado a objetos. Além das definições e descrição do conceito de cada paradigma, foram apresentados códigos semelhantes para exemplificar as estruturas, recursos e organização do código que são característicos de cada um. Além disso, foi apresentada uma comparação de complexidade entre os dois, mencionando que a orientação a objetos pode contribuir na organização do código e, por consequência, no gerenciamento da complexidade.
 
-### Los Bandoleiros ⚔️  
-- Comparação entre os paradigmas **imperativo** e **orientado a objetos (POO)**.  
-- Incluiu:  
-  - Definições e conceitos de cada paradigma.  
-  - Códigos semelhantes para exemplificar estruturas e organização.  
-  - Discussão sobre complexidade, destacando que o POO pode melhorar a organização e gerenciamento de código. 📊  
+The Rapazes --> O grupo propôs um comparativo entre as formas como diferentes paradigmas podem resolver os problemas. Dos exemplos apresentados, o Lig4 foi bastante dinâmico e facilitou a compreensão, pois o problema original tem uma lógica de compreensão simples. Com isso, foi notável a diferença entre quantidade de linhas, organização de código e o uso de recursos específicos para determinadas situações, além da diferença do tempo de execução e de verificação de uma vitória no jogo.
 
----
+CREV --> O grupo apresentou um resumo sobre os principais paradigmas de programação: imperativo, POO, funcional e lógico. Chamou a atenção a proposta de que os paradigmas moldam o pensamento daqueles que o utilizam, pois de fato, ao se acostumar com um determinado paradigma, a forma de programar, projetar sistemas e resolver problemas molda-se a esse estilo; é nesse sentido, por exemplo que aprender um novo paradigma como o funcional pode ser mais difícil para quem está habituado com a programação orientada a objetos. A comparação entre paradigmas apresentada pelos membros permitiu uma visão rápida e simples sobre os principais pontos de cada uma, bem como o funcionamento e características.
 
-### The Rapazes 🎮  
-- Comparativo de como diferentes paradigmas resolvem problemas, usando o **jogo Lig4** como exemplo.  
-- Destaques:  
-  - Diferença na quantidade de linhas de código.  
-  - Organização e uso de recursos específicos.  
-  - Tempo de execução e verificação de vitória no jogo. ⏱️  
-
----
-
-### CREV 🧠  
-- Resumo sobre os principais paradigmas:  
-  - Imperativo.  
-  - POO.  
-  - Funcional.  
-  - Lógico.  
-- **Destaque**: Os paradigmas moldam o pensamento dos programadores. Por exemplo, quem está acostumado com POO pode achar o funcional mais desafiador. 🔄  
-- Comparação rápida e simples entre os paradigmas, mostrando funcionamento e características. 📌  
-
----
-
-### YET 🚀  
-- Apanhado geral sobre **Programação Funcional**:  
-  - Origens e conceitos principais.  
-  - Diferenças em relação a outros paradigmas.  
-  - Utilidade atual (ex.: aplicações financeiras para avaliação de riscos). 💰  
-- Pontos-chave:  
-  - Redução de linhas de código com programação funcional.  
-  - Classificação das linguagens funcionais (puras, fortemente funcionais, parcialmente funcionais). 📉  
+YET --> O grupo apresentou um apanhando geral de informações sobre Programação Funcional, abordando suas origens, principais conceitos, diferenças ao comparar este paradigma com outras linguagens e sua utilidade nos dias de hoje. Destacaram-se os pontos redução da quantidade de linhas em códigos com a programação funcional aplicada, a classificação das linguagens que suportam o paradigma funcional como linguagens puramente funcionais, fortemente funcionais e parcialmente funcionais, e a utilização em atividades do contexto financeiras, como em aplicações que tratam sobre avaliação de riscos.
